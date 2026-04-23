@@ -11,7 +11,7 @@ public class Main {
         Movie movie1 = new Movie();
         movie1.setTitle("Interstellar");
         movie1.setDescription("Sci-fi");
-        movieService.add(movie1);
-        movieService.get(1L);
+        System.out.println("this movie was added " + movieService.add(movie1));
+        System.out.println("this movie was got " + movieService.get(1L));;
     }
 }
